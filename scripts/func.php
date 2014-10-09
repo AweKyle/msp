@@ -21,7 +21,7 @@ function alert($result)
 	}
 	else 
 	{
-		if($_SERVER['PHP_SELF'] != "/rating-system/index.php")
+		if($_SERVER['PHP_SELF'] != "/msp/index.php")
 		{
 	?>
 		<script type="text/javascript">

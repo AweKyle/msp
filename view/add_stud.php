@@ -76,12 +76,13 @@ elseif(isset($_POST['adding_type']) && $_POST['adding_type'] == "manual")
 	</form>
 <?php
 }
-if(isset($_POST['course']) && $_POST['course'] == "")
+//if(isset($_POST['course']) && $_POST['course'] == "")
+if(empty($_POST['course']))
 {
 	print "Вы должны указать курс и число добавляемых студентов";
 	die();
 }
-elseif(isset($_POST['course']) && isset($_POST['start_year']) && isset($_POST['end_year']))
+elseif(!empty($_POST['course']) && !empty($_POST['start_year']) && !empty($_POST['end_year']))
 {
 	$_SESSION['add_stud_course'] = $_POST['course'];
 	$_SESSION['start_year'] = $_POST['start_year'];
@@ -149,11 +150,6 @@ if(isset($_POST['s_count']) && is_numeric($_POST['s_count']))
 		<tr>
 			<td>
 				<input type='submit' value='Ok'>
-			</td>
-		</tr>
-		<tr>
-			<td align="center" colspan="6">
-				<hr>
 			</td>
 		</tr>
 	</table>

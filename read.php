@@ -19,7 +19,7 @@ else
 	move_uploaded_file($_FILES['somename']['tmp_name'], $uploadfile);
 	if(file_exists($uploadfile))
 	{
-		require_once "PHPExcel.php"; //подключаем наш фреймворк
+		require_once "lib/PHPExcel.php"; //подключаем наш фреймворк
 		$filepath = "tmp/file.xls";
 		$inputFileType = PHPExcel_IOFactory::identify($filepath);  // узнаем тип файла, excel может хранить файлы в разных форматах, xls, xlsx и другие
 		$objReader = PHPExcel_IOFactory::createReader($inputFileType); // создаем объект для чтения файла

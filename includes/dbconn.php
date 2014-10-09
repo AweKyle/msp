@@ -6,7 +6,7 @@ class DB
 	{
 		if(self::$conn === null)
 		{
-			self::$conn = new PDO('mysql:host=localhost;dbname=rating_system','root','');
+			self::$conn = new PDO('mysql:host=localhost;dbname=rating_system','root','root');
 		}
 		return self::$conn;
 	}
