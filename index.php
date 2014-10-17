@@ -1,12 +1,14 @@
 <?php
-include '/msp/templates/header.php';
+session_start();
+include 'templates/header.php';
 include 'routes.php';
 ?>
-<!DOCTYPE html>
-<html>
 <div class="content">
 	<?php
 		__autoload($_SERVER['REQUEST_URI']);
 	?>
 </div>
+<?php
+include 'templates/footer.php';
+?>
 </html>
