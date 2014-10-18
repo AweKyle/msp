@@ -1,0 +1,45 @@
+.top_ul {
+	list-style: none;
+	display: inline-flex;
+	float: right;
+	margin-top: 0px;
+}
+.top_li {
+	padding-top: 11px;
+	padding-right: 35px;
+}
+.top_li:last-child {
+	border-left: 1px solid #b5d7d6;
+	margin-left: 20px;
+	padding: 0px;
+}
+.lock {
+	width: 40px;
+	margin-left: 5px;
+}
+.lock:hover {
+	background-color: cadetblue;
+	border-radius: 7px;
+}
+.inp_search {
+	border-radius: 4px;
+	height: 18px;
+	font-style: italic;
+
+}
+.select-box {
+	width: 155px;
+	height: 24px;
+	/* font: 22px normal Arial, Helvetica, sans-serif; */
+	font-style: italic;
+	color: #777;
+	border: 1px solid #c5c5c5;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 2px 0 5px 10px;
+}
+.btn {
+	height: 24px;
+	width: 70px;
+}
