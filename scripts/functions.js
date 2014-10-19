@@ -1,3 +1,8 @@
+/*$(function() {
+	$('a.fancybox').click(function(event) {
+		event.preventDefault();
+	});
+});*/
 function f()
 {
 	var form = document.getElementById("checkForm")

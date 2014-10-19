@@ -53,6 +53,16 @@
 		padding-right: 5px;
 	}
 </style>
+<script type="text/javascript">
+	//$(".fancybox").fancybox();
+	$(".fancybox").fancybox({
+    width: 300,
+    minHeight: 180,
+    maxHeight: 190,
+    autoDimensions: false,
+    fitToView: false,
+  });
+</script>
 <div class="top_menu">
 	<div class="lol">
 		<form method="post" action="" id="fast_search_form">
@@ -101,7 +111,7 @@
 					<input type="submit" name="search" value="Поиск" class="btn" />
 				</li>
 				<li class="top_li">
-					<a href="#" class="sign_up">
+					<a class="fancybox fancybox.iframe" href="/msp/view/auth.php">
 						<img src="/msp/img/lock.png" class="img lock" />
 					</a>
 				</li>

@@ -1,15 +1,3 @@
-<?php
-header("Content-Type:text/html; Charset = utf-8");
-?>
-<!DOCTYPE html>
-<html>
-<title>
-</title>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf8">
-<link rel="stylesheet" type="text/css" href="../styles/style.css">
-</head>
-<body>
 <div id="reg_div">
    <p align="center"> 
       Регистрация нового пользователя
@@ -60,5 +48,3 @@ header("Content-Type:text/html; Charset = utf-8");
       </table>
    </form>
 </div>
-</body>
-</html>

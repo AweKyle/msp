@@ -1,6 +1,7 @@
 <?php
 session_start();
 include 'templates/header.php';
+include 'templates/top_menu.php';
 include 'routes.php';
 ?>
 <div class="content">
