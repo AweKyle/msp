@@ -5,7 +5,7 @@
 </style>
 <div class="form">
 	<p>Для входа введите свои учетные данные</p>
-	<form method="POST" action="user.php">
+	<form method="POST" action="/msp/modules/user.php">
 		<input type="text" name="login" placeholder="Введите логин" size="25" maxlength="30" />
 		<input type="password" name="password" placeholder="Введите пароль" size="25" maxlength="30" />		
 		<br />

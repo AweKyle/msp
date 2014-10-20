@@ -11,5 +11,3 @@
 	<script type="text/javascript" src = "/msp/scripts/fancybox/source/jquery.fancybox.js"></script>
 	<script type="text/javascript" src = "/msp/scripts/fancybox/source/jquery.fancybox.pack.js"></script>
 </head>
-
-</html>

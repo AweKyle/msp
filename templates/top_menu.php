@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <style type="text/css">
 	.top_ul {
 		list-style: none;
@@ -119,4 +117,3 @@
 		</form>
 	</div>
 </div>
-</html>
