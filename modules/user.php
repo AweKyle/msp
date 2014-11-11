@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'scripts/func.php';
+require_once '/var/www/msp/scripts/func.php';
 class User
 {
 	//private $login = null;
@@ -131,7 +131,7 @@ class User
 	}
 }
 
-require_once 'includes/dbconn.php';
+require_once '/var/www/msp/includes/dbconn.php';
 if (isset($_POST['reg_login']) AND isset($_POST['reg_pass']))
 {
 	$reg = new User();

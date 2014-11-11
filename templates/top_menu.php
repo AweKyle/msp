@@ -44,7 +44,7 @@
 		height: 24px;
 		width: 70px;
 	}
-	.lol {
+	.top_frm_div {
 		height: 46px;
 		background-color: black;
 		margin: -8px 0 0 0;
@@ -62,7 +62,7 @@
   });
 </script>
 <div class="top_menu">
-	<div class="lol">
+	<div class="top_frm_div">
 		<form method="post" action="" id="fast_search_form">
 			<ul class="top_ul">
 				<li class="top_li">

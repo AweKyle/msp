@@ -2,7 +2,7 @@
    <p align="center"> 
       Регистрация нового пользователя
    </p>
-   <form action="../user.php" method="POST">
+   <form action="/msp/modules/user.php" method="POST">
       <table>
          <tr>
             <td>
@@ -42,7 +42,6 @@
             <td>
                <input type="reset" class="sbmt" name="reset" value="Очистить" />
                <input type="submit" class="sbmt" name="ok" value="Готово" />
-               <input type="button" class="sbmt" value="Назад" onclick="location.href='index.php'" />
             </td>
          </tr>
       </table>
